@@ -1,0 +1,224 @@
+body {
+	background-color: purple;
+	margin: 0;
+}
+
+.outer{
+	display: table; 
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.mainContainer{ /*def */
+	background-color: white;
+	width: 500px; 
+	height: 400px;
+	margin: auto;
+}
+
+.mainContainer form{  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.mainContainer form > div {
+	width: 60%;
+}
+
+.mainContainer form>div * {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+/*
+label[for="email"]{display: block;}
+label[for="password"]{display: block;}
+*/
+
+label, h3 { 
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	color: #505050 ;
+}
+
+#emailContainer, #passContainer{
+	margin-bottom: 10px;
+}
+
+#passContainer{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+#passContainer * {
+	margin: 0;
+}
+
+.txt{ padding: 4px; }
+
+.loginButton, .submitButton{
+	width: 100%;
+	padding: 10px 130px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	border: 0;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	color:blue;
+	font-family: Verdana, sans-serif;
+}
+
+a.loginButton{
+	background-color: green;
+	text-decoration: none;
+}
+
+html,
+body,
+#main,
+#nav,
+#wholeContent,
+#navleft, #navright {
+  height: 100%;
+  min-height: 100%;
+}
+
+#main{
+	margin: 0 auto;
+  	overflow: hidden;
+}
+
+#nav{
+
+	background: purple;
+  	float: left;
+
+}
+
+#navleft{
+	float: left;
+	width: 170px;
+	padding-top: 30px;
+} 
+
+#listnav{
+	float: left;
+	list-style-type: none;
+}
+.linknav {
+	color: white;
+}
+
+#navright{
+	float: left;
+	width: 30px;
+	background-color: purple;
+	text-align: center;
+}
+
+#wholeContent{
+	margin-left: 200px;
+	background: white;
+}
+
+#blankDashboard
+{
+	height: 20px;
+}
+
+#titleDashboard{
+	background-color: #E0FFFF;
+	padding: 10px 0px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+#contentDashboard{
+	padding: 4px;
+}
+
+.myNav{
+	color: white;
+	cursor: pointer;
+}
+
+#content1 {
+	/*float: left;
+	width: 1300px;*/
+	padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    border: 1px;
+}
+#content2 {
+	float: left;
+	width: 1300px;
+}
+
+#rooms_templates_systems {
+	width: 800px;
+	float: left;
+}
+#systems_type {
+	width: 500px;
+	float: right;
+}
+
+.accountContainer{ /*def */
+	background-color: white;
+	width: 500px; 
+	height: 400px;
+	margin: auto;
+}
+
+.accountContainer form{  
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.accountContainer form > div {
+	width: 80%;
+}
+
+.accountContainer form>div * {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#checkboxActive{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+#listDropDown{
+	float: left;
+	list-style-type: none;
+}
+
+#subContent{
+	padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    border: 1px;
+}
+
+.blueBox{ background-color:blue;}
+.greenBox{ background-color:green;}
+.orangeBox{ background-color:orange;}
